@@ -991,3 +991,21 @@
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
 @import 'foundation';
+
+// RefineryCMS Customization
+header {
+}
+#page {
+  @include grid-row();
+  #body {
+    @include grid-column(9);
+  }
+  .no_side_body #body {
+    @include grid-column(12);
+  }
+  #side_body {
+    @include grid-column(3);
+  }
+}
+footer {
+}
