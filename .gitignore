@@ -95,3 +95,5 @@ capybara-*html
 # vendor/extensions dummy applications.
 vendor/extensions/**/spec/dummy
 
+# config files
+config/database.yml
