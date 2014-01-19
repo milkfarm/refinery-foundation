@@ -97,3 +97,6 @@ vendor/extensions/**/spec/dummy
 
 # config files
 config/database.yml
+
+# other
+tags
