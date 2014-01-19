@@ -89,6 +89,8 @@ capybara-*html
 #rvm
 .rvmrc
 .rvmrc.*
+.ruby-gemset
+.ruby-version
 
 # vendor/extensions dummy applications.
 vendor/extensions/**/spec/dummy
